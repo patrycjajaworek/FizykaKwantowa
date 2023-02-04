@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fogt-integra-2022z"
+version = "0.1.0"
+description = ""
+authors = ["Maciej J. Mrowinski <47922372+brokenpumpernickel@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fogt_integra_2022z"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+numpy = "^1.24.1"
+matplotlib = "^3.6.2"
+jupyterlab = "^3.5.2"
+sympy = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
